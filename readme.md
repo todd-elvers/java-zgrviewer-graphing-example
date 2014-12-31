@@ -21,6 +21,6 @@ __or__
 
 <br/>
 
-###Note #1:
+###Note:
 This application needs to create .dot & .svg files for ZGRViewer to visualize them.
 For simplicity these are stored in a 'graphs' folder on your desktop.
