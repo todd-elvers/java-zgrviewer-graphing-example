@@ -17,7 +17,7 @@ public class GraphFileVisualizer {
 
 	// This manually writes ZGRViewer's configuration file so you don't have to use the GUI to do it
 	private void writeZGRViewerConfigFile() throws IOException {
-		File configFile = new File(System.getenv("TEMP"), ".zgrviewer");
+		File configFile = new File(System.getenv("USERPROFILE"), ".zgrviewer");
 		FileUtils.writeStringToFile(configFile, generateZGRViewerConfigFileContents(), false);
 		
 		log.debug("ZGRViewer config file written to [" + configFile.getAbsolutePath() +"]");
@@ -39,7 +39,7 @@ public class GraphFileVisualizer {
 				.append("\t</zgrv:directories>\n")
 				.append("\t<zgrv:webBrowser autoDetect=\"true\" options=\"\" path=\"\"/>\n")
 				.append("\t<zgrv:proxy enable=\"false\" host=\"\" port=\"80\"/>\n")
-				.append("\t<zgrv:preferences antialiasing=\"false\" cmdL_options=\"\"")
+				.append("\t<zgrv:preferences antialiasing=\"true\" cmdL_options=\"\"")
 				.append("\t\tdynaspot=\"false\" highlightColor=\"-65536\" magFactor=\"2.0\"")
 				.append("\t\tsaveWindowLayout=\"false\" sdZoom=\"false\" sdZoomFactor=\"2\" silent=\"true\"/>\n")
 				.append("\t<zgrv:plugins/>\n")
