@@ -4,6 +4,7 @@
 
 ###What this is
 This is merely an example of what is possible with graphs and ZGRViewer in Java.
+I made this a long time ago for a friend, figured I'd upload it here just in case it was useful to someone.
 
 <br/>
 
