@@ -1,7 +1,5 @@
 ##java-zgrviewer-graphing-example
 
----
-
 
 ###What this is
 This is merely an example of what is possible with graphs and ZGRViewer in Java.
