@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svnroot/zvtm/!svn/ver/1619/zgrviewer/trunk/src/main/java/net/claribole/zgrviewer
+END
+Utils.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/zvtm/!svn/ver/858/zgrviewer/trunk/src/main/java/net/claribole/zgrviewer/Utils.java
+END
+NavPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/zvtm/!svn/ver/1070/zgrviewer/trunk/src/main/java/net/claribole/zgrviewer/NavPanel.java
+END
+TextViewer.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/zvtm/!svn/ver/858/zgrviewer/trunk/src/main/java/net/claribole/zgrviewer/TextViewer.java
+END
+Messages.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/zvtm/!svn/ver/1619/zgrviewer/trunk/src/main/java/net/claribole/zgrviewer/Messages.java
+END
+BaseEventHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/zvtm/!svn/ver/858/zgrviewer/trunk/src/main/java/net/claribole/zgrviewer/BaseEventHandler.java
+END
+ZgrvEvtHdlr.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/zvtm/!svn/ver/1627/zgrviewer/trunk/src/main/java/net/claribole/zgrviewer/ZgrvEvtHdlr.java
+END
+DOTManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/zvtm/!svn/ver/956/zgrviewer/trunk/src/main/java/net/claribole/zgrviewer/DOTManager.java
+END
+RadarEvtHdlr.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/zvtm/!svn/ver/1543/zgrviewer/trunk/src/main/java/net/claribole/zgrviewer/RadarEvtHdlr.java
+END
+PrefWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/zvtm/!svn/ver/1627/zgrviewer/trunk/src/main/java/net/claribole/zgrviewer/PrefWindow.java
+END
+CallBox.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svnroot/zvtm/!svn/ver/858/zgrviewer/trunk/src/main/java/net/claribole/zgrviewer/CallBox.java
+END
+ZGRApplication.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/zvtm/!svn/ver/858/zgrviewer/trunk/src/main/java/net/claribole/zgrviewer/ZGRApplication.java
+END
+PeriodicActionManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svnroot/zvtm/!svn/ver/858/zgrviewer/trunk/src/main/java/net/claribole/zgrviewer/PeriodicActionManager.java
+END
+ZP2LensAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svnroot/zvtm/!svn/ver/858/zgrviewer/trunk/src/main/java/net/claribole/zgrviewer/ZP2LensAction.java
+END
+GraphicsManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svnroot/zvtm/!svn/ver/1627/zgrviewer/trunk/src/main/java/net/claribole/zgrviewer/GraphicsManager.java
+END
+Plugin.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/zvtm/!svn/ver/869/zgrviewer/trunk/src/main/java/net/claribole/zgrviewer/Plugin.java
+END
+ConfigManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/zvtm/!svn/ver/1543/zgrviewer/trunk/src/main/java/net/claribole/zgrviewer/ConfigManager.java
+END
+LNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/zvtm/!svn/ver/1250/zgrviewer/trunk/src/main/java/net/claribole/zgrviewer/LNode.java
+END
+ZgrAppletEvtHdlr.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/zvtm/!svn/ver/1543/zgrviewer/trunk/src/main/java/net/claribole/zgrviewer/ZgrAppletEvtHdlr.java
+END
+GVLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/zvtm/!svn/ver/1070/zgrviewer/trunk/src/main/java/net/claribole/zgrviewer/GVLoader.java
+END
+AppletUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/zvtm/!svn/ver/858/zgrviewer/trunk/src/main/java/net/claribole/zgrviewer/AppletUtils.java
+END
+ZGRApplet.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/zvtm/!svn/ver/1254/zgrviewer/trunk/src/main/java/net/claribole/zgrviewer/ZGRApplet.java
+END
+PNGExportWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/zvtm/!svn/ver/858/zgrviewer/trunk/src/main/java/net/claribole/zgrviewer/PNGExportWindow.java
+END
+SearchBox.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/zvtm/!svn/ver/858/zgrviewer/trunk/src/main/java/net/claribole/zgrviewer/SearchBox.java
+END
+LEdge.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/zvtm/!svn/ver/1258/zgrviewer/trunk/src/main/java/net/claribole/zgrviewer/LEdge.java
+END
+WebBrowser.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/zvtm/!svn/ver/858/zgrviewer/trunk/src/main/java/net/claribole/zgrviewer/WebBrowser.java
+END
+BroughtElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svnroot/zvtm/!svn/ver/1258/zgrviewer/trunk/src/main/java/net/claribole/zgrviewer/BroughtElement.java
+END
+PrintWindow.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/zvtm/!svn/ver/858/zgrviewer/trunk/src/main/java/net/claribole/zgrviewer/PrintWindow.java
+END
+ZGRViewer.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svnroot/zvtm/!svn/ver/1621/zgrviewer/trunk/src/main/java/net/claribole/zgrviewer/ZGRViewer.java
+END
+PrintUtilities.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/zvtm/!svn/ver/858/zgrviewer/trunk/src/main/java/net/claribole/zgrviewer/PrintUtilities.java
+END
+LogicalStructure.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/zvtm/!svn/ver/1246/zgrviewer/trunk/src/main/java/net/claribole/zgrviewer/LogicalStructure.java
+END
+ToolPalette.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/zvtm/!svn/ver/1622/zgrviewer/trunk/src/main/java/net/claribole/zgrviewer/ToolPalette.java
+END
+LElem.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/zvtm/!svn/ver/1246/zgrviewer/trunk/src/main/java/net/claribole/zgrviewer/LElem.java
+END

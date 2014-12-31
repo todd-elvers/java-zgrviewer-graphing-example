@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/zvtm/!svn/ver/1382/zgrviewer/trunk/src/main/antlr
+END
+DOTRecord.g
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svnroot/zvtm/!svn/ver/1382/zgrviewer/trunk/src/main/antlr/DOTRecord.g
+END
+DOT.g
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svnroot/zvtm/!svn/ver/1382/zgrviewer/trunk/src/main/antlr/DOT.g
+END
+DOTTreeTransformer.g
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/zvtm/!svn/ver/1382/zgrviewer/trunk/src/main/antlr/DOTTreeTransformer.g
+END

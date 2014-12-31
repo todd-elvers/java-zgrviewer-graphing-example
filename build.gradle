@@ -1,0 +1,30 @@
+apply plugin: 'application'
+apply plugin: 'groovy'
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'eclipse'
+
+// Indicate which main class to run when calling 'gradlew run'
+mainClassName='com.toddelvers.graphing.Startup'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.codehaus.groovy:groovy:2.3.7'
+    
+	// Logging
+    compile 'log4j:log4j:1.2.16'
+	
+	// Graphing
+	compile 'org.codehaus.castor:castor:1.2'
+	compile 'dom4j:dom4j:1.6.1'
+	compile 'net.sf.jgrapht:jgrapht:0.8.3'
+
+	// Apache & Google utilities
+	compile 'commons-io:commons-io:2.4'
+	compile 'org.apache.commons:commons-lang3:3.1'
+	compile 'com.google.guava:guava:14.0.1'
+ 
+}
