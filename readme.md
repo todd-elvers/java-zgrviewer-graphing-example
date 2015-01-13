@@ -22,5 +22,5 @@ __or__
 <br/>
 
 ###Note:
-This application needs to create .dot & .svg files for ZGRViewer.
-For simplicity these created and stored in a 'graphs' folder on your desktop when the application runs.
+This application needs to create .dot & .svg files to pass to ZGRViewer. <br/>
+For simplicity, these are created and stored in a 'graphs' folder on your desktop.
