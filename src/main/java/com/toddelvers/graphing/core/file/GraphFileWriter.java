@@ -1,6 +1,6 @@
 package com.toddelvers.graphing.core.file;
 
-import com.toddelvers.graphing.core.data.GraphDataMapper;
+import com.toddelvers.graphing.core.data.GraphDataMapperAndDOTExporter;
 import com.toddelvers.graphing.core.pojos.GraphLayoutEngine;
 import com.toddelvers.graphing.core.pojos.WeightedEdge;
 import org.apache.commons.lang3.RandomStringUtils;
@@ -11,9 +11,9 @@ import org.jgrapht.graph.DefaultDirectedWeightedGraph;
 import java.io.*;
 
 public class GraphFileWriter {
-	private static Logger log = Logger.getLogger(GraphFileWriter.class);
+	private static final Logger log = Logger.getLogger(GraphFileWriter.class);
 
-	private GraphDataMapper graphDataMapper = new GraphDataMapper();
+	private GraphDataMapperAndDOTExporter graphDataMapper = new GraphDataMapperAndDOTExporter();
 	private File destinationDirectory = new File(System.getenv("TEMP"));		// Default - overwrite with .usingDestinationDirectory()
 	private GraphLayoutEngine graphLayoutEngine = GraphLayoutEngine.SFDP;		// Default - overwrite with .usingLayoutEngine()
 
@@ -51,7 +51,7 @@ public class GraphFileWriter {
 
 		// Write graph contents to DOT file
 		Writer writer = new BufferedWriter(new FileWriter(dotFile));
-		DOTExporter<String, WeightedEdge> dotExporter = graphDataMapper.getContentMapper();
+		DOTExporter<String, WeightedEdge> dotExporter = graphDataMapper.getDOTExporter();
 		dotExporter.export(writer, graph);
 		writer.close();
 

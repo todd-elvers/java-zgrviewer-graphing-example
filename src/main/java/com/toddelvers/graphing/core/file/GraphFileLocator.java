@@ -8,7 +8,7 @@ import java.io.FileNotFoundException;
 import java.net.URL;
 
 public class GraphFileLocator {
-    private static Logger log = Logger.getLogger(GraphFileLocator.class);
+    private static final Logger log = Logger.getLogger(GraphFileLocator.class);
 
     public static String determineAbsoluteFilePathFor(String relativeFilePath) throws FileNotFoundException {
         log.debug("Looking for absolute file path for resource '" + relativeFilePath + "'...");
