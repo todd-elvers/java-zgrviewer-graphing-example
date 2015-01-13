@@ -1,4 +1,4 @@
-package com.toddelvers.graphing.core.data;
+package com.toddelvers.graphing.core.file.mapping;
 
 import com.toddelvers.graphing.core.pojos.WeightedEdge;
 import org.jgrapht.ext.*;
@@ -12,14 +12,14 @@ import java.util.Map;
  * This is where you edit how particular components of the graph are written to file,
  * which also dictates how those components will get read and visualized by ZGRViewer
  */
-public class GraphDataMapper {
+public class GraphDataToDOTExporterTransformer {
 	private VertexNameProvider<String> vertexIdLabeler;
 	private VertexNameProvider<String> vertexMapper;
 	private EdgeNameProvider<WeightedEdge> edgeMapper;
 	private ComponentAttributeProvider<String> vertexAttributeMapper;
 	private ComponentAttributeProvider<WeightedEdge> edgeAttributeMapper;
 
-	public DOTExporter<String, WeightedEdge> getContentMapper() {
+	public DOTExporter<String, WeightedEdge> transform() {
 		initVertexMappers();
 		initEdgeMappers();
 

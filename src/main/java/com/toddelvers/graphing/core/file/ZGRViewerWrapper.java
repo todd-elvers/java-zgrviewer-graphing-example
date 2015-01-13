@@ -7,8 +7,8 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-public class GraphFileVisualizer {
-	private static final Logger log = Logger.getLogger(GraphFileVisualizer.class);
+public class ZGRViewerWrapper {
+	private static final Logger log = Logger.getLogger(ZGRViewerWrapper.class);
 
 	public void visualizeWithZGRViewer(File graphFile) throws IOException {
 		writeZGRViewerConfigFile();

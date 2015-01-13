@@ -1,11 +1,11 @@
-package com.toddelvers.graphing.core.data;
+package com.toddelvers.graphing.core.pojos;
 
 import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.Multimap;
 
-public class GraphDataGenerator {
+public class GraphData {
 
-    public static Multimap<String, String> generateGraphData() {
+    public static Multimap<String, String> generateTestGraphData() {
         final Multimap<String, String> graphData = ArrayListMultimap.create();
 
         graphData.put("Video Games", "Company Of Heros 2");
@@ -40,5 +40,4 @@ public class GraphDataGenerator {
 
         return graphData;
     }
-
 }
