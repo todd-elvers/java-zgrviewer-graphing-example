@@ -42,7 +42,7 @@ public class GraphFileLocator {
      * Resources located via .getResource() have a leading slash, and since these paths will be used
      * as command line parameters we need to remove them or we'll get a silent failure.
      */
-    private static String removeLeadingSlashIfNecessary(String absoluteFilePath){
+    private static String removeLeadingSlashIfNecessary(String absoluteFilePath) {
         return absoluteFilePath.startsWith("/") ? absoluteFilePath.substring(1) : absoluteFilePath;
     }
 }
