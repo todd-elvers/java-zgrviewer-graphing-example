@@ -10,6 +10,8 @@ I made this a long time ago for a friend, figured I'd upload it here just in cas
 
 ### How to run it:
 
+(This currently does not work on MacOS)
+
 1. Pull down the project
 2. Navigate to the directory you pulled the project into
 3. Run `gradlew run`
